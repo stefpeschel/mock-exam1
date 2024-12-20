@@ -4,6 +4,7 @@ library("dplyr")
 library("tidyr")
 library("readr")
 library("lubridate")
+library("ggplot2")
 
 if (FALSE) {
   # make renv aware of all the other packages we want to have available
@@ -13,7 +14,6 @@ if (FALSE) {
   library("compiler")
   library("data.table")
   library("DT")
-  library("ggplot2")
 }
 
 CANONICAL_R_FILES <- list.files("R") # names of the files in /R
